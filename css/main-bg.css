@@ -11,7 +11,7 @@ replace preview images directly;
     background-image: url('../images/menu.jpg');
 }
 .hero-bg {
-    background-image: url('../images/laPorra.jpg');
+    background-image: url('../images/laPorra.jpeg');
     filter: grayscale(100%);
 }
 .about-bg {
@@ -24,7 +24,7 @@ replace preview images directly;
     background-image: url('../images/bg/03.jpg');
 }
 .news-01-bg:hover{
-    background-image: url('../images/LaPorra.jpg');
+    background-image: url('../images/LaPorra.jpeg');
         filter: grayscale(100%);
 }
 .news-02-bg:hover{
@@ -40,6 +40,6 @@ replace preview images directly;
 	background-image: url('../images/project/project01/03.jpg');
 }
 .parallax-showcase-03{
-	background-image: url('../images/laPorra.jpg');
+	background-image: url('../images/laPorra.jpeg');
         filter: grayscale(100%);
 }
