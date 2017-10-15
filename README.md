@@ -1,2 +1,0 @@
-# yosoy-attire
-Ecommerce platform
