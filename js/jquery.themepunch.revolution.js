@@ -5987,7 +5987,7 @@
 
 							  // y: -90 -> +90,  x:-180 -> +180
 
-							  //jQuery('.logo-container').html("h:"+curh+"  v:"+curv);
+							  jQuery('.logo-container').html("h:"+curh+"  v:"+curv);
 							  }
 			}
 			if (opt.parallax=="scroll" || opt.parallax=="scroll+mouse" || opt.parallax=="mouse+scroll") {

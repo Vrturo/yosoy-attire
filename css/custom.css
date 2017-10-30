@@ -1,0 +1,19 @@
+.yosoy-logo {
+	position: relative;
+	top: -15px;
+    width: 5rem;
+    height: 5rem;
+}
+
+@font-face {font-family:"Kingthings Versalis";
+			src:url("/fonts/Kingthings_Versalis.eot?") format("eot"),
+			url("/fonts/Kingthings_Versalis.woff") format("woff"),
+			url("/fonts/Kingthings_Versalis.ttf") format("truetype"),
+			url("/fonts/Kingthings_Versalis.svg#KingthingsVersalis") format("svg");
+			font-weight:normal;
+			font-style:normal;
+
+}
+.kingsFont {
+	font-family: "Kingthings Versalis Regular";
+}
