@@ -27,6 +27,16 @@
     text-transform: lowercase;
 }
 
+.kingsFont.black {
+	color: black;
+	font-weight: normal;
+	-moz-text-fill-color: black;
+    -webkit-text-fill-color: black;
+       -moz-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
+    text-transform: lowercase;
+}
+
 .landingPageTitle {
 	font-size: 10vw;
 }
@@ -43,4 +53,8 @@
 
 .home-message {
 	padding-top: 28vh;
+}
+
+.shopTitle {
+	font-size: 15vh;
 }
