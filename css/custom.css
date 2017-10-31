@@ -5,15 +5,80 @@
     height: 5rem;
 }
 
-@font-face {font-family:"Kingthings Versalis";
-			src:url("/fonts/Kingthings_Versalis.eot?") format("eot"),
-			url("/fonts/Kingthings_Versalis.woff") format("woff"),
-			url("/fonts/Kingthings_Versalis.ttf") format("truetype"),
-			url("/fonts/Kingthings_Versalis.svg#KingthingsVersalis") format("svg");
-			font-weight:normal;
-			font-style:normal;
+@font-face {
+	font-family: 'Kingthings_Versalis';
+	src: url('fonts/Kingthings_Versalis.eot');
+	src: local('☺'), 
+	url('fonts/Kingthings_Versalis.woff') format('woff'), 
+	url('fonts/Kingthings_Versalis.ttf') format('truetype'), 
+	url('fonts/Kingthings_Versalis.svg') format('svg'),
+	url("fonts/Kingthings_Versalis.eot?") format("eot");
+	font-weight: normal;
+	font-style: normal;
 
 }
 .kingsFont {
-	font-family: "Kingthings Versalis Regular";
+	font-family: 'Kingthings_Versalis', Sans-Serif;
+	color: white;
+	font-weight: normal;
+	-moz-text-fill-color: white;
+    -webkit-text-fill-color: white;
+       -moz-text-stroke-color: white;
+    -webkit-text-stroke-color: white;
+    text-transform: lowercase;
 }
+
+.landingPageTitle {
+	font-size: 10vw;
+}
+
+.kingsTitle {
+	font-size: 10vw;
+}
+
+.kingsSubTitle {
+	position: relative;
+	font-size: 5vw;
+	top: -25px;
+}
+
+.home-message {
+	padding-top: 20vh;
+}
+
+
+/*SOLD OUT BUTTONS*/
+/*.soldout-buttons{
+	visibility: hidden;
+	margin: 0 auto;
+}
+.soldout-buttons p {
+	font-style: italic;
+	color:#545454;
+	text-decoration: line-through;
+}
+.soldout-buttons h4 {
+	padding:0;
+	margin:0;
+}
+.soldout-buttons h4 a {
+	color:#030303;
+}
+.teammembers:hover .soldout-buttons,
+.entry:hover .soldout-buttons {
+	margin-bottom: -20px;
+	opacity: 1;
+}
+.entry:hover .border-radius .soldout-buttons {
+	bottom: 44%;
+}
+.entry:hover .border-radius .soldout-buttons h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.entry:hover .border-radius .soldout-buttons  .social a {
+	margin: 0 !important;
+}
+.darkmagnifier .soldout-buttons {
+	bottom:50% !important;
+}*/
