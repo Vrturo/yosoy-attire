@@ -24,7 +24,7 @@
     -webkit-text-fill-color: white;
        -moz-text-stroke-color: white;
     -webkit-text-stroke-color: white;
-    text-transform: lowercase;
+    text-transform: none;
 }
 
 .kingsFont.black {
@@ -34,21 +34,30 @@
     -webkit-text-fill-color: black;
        -moz-text-stroke-color: black;
     -webkit-text-stroke-color: black;
-    text-transform: lowercase;
+    text-transform: none;
 }
 
-.landingPageTitle {
-	font-size: 10vw;
+@media all and (max-width: 500px) and (min-width: 200px) {
+	.landingPageTitle {
+		font-size: 11vw;
+	}
 }
 
 .kingsTitle {
-	font-size: 14vw;
+	font-size: 14vh;
+	top: -9vh;
+}
+
+.kingsTitle span { 
+	display: inline-block;
+  transform: scaleX(-1); 
+  filter: FlipH; /* IE 6-7-8 */
 }
 
 .kingsSubTitle {
 	position: relative;
-	font-size: 7vw;
-	top: -9vw;
+	font-size: 7vh;
+	top: -10vh;
 }
 
 .home-message {
